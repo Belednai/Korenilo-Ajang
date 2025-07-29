@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Korenilo Ajang Duot - Professional Portfolio
 
-## Project info
+A professional portfolio website for Korenilo Ajang Duot, PhD Candidate in Oil & Gas Law, Senior Contract Specialist, and Managing Partner.
 
-**URL**: https://lovable.dev/projects/8e7714ef-c1d4-48f5-bf22-9246b840f65e
+## About
 
-## How can I edit this code?
+This portfolio showcases Korenilo's expertise in legal frameworks, regulatory compliance, and business development across Africa. Built with modern web technologies and professional design principles.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Professional Typography**: Serif fonts for credibility and authority
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Social Media Integration**: LinkedIn, Email, and X (Twitter) links
+- **Professional Styling**: Consistent blue color scheme and elegant animations
+- **SEO Optimized**: Proper meta tags and structured data
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8e7714ef-c1d4-48f5-bf22-9246b840f65e) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: Shadcn/ui component library
+- **Build Tool**: Vite for fast development and optimized builds
+- **Deployment**: GitHub Pages ready
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (version 18 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone https://github.com/Belednai/Korenilo-Ajang.git
+cd Korenilo-Ajang
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint for code quality
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # React components
+│   ├── ui/            # Shadcn/ui components
+│   ├── Hero.tsx       # Hero section
+│   ├── About.tsx      # About section
+│   ├── Experience.tsx # Experience section
+│   ├── Research.tsx   # Research & Education
+│   ├── Contact.tsx    # Contact form
+│   └── Footer.tsx     # Footer with social links
+├── assets/            # Images and static files
+├── lib/               # Utility functions
+└── styles/            # Global styles
+```
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The project is configured for deployment on GitHub Pages. Simply push to the main branch and enable GitHub Pages in the repository settings.
 
-## How can I deploy this project?
+## Credits
 
-Simply open [Lovable](https://lovable.dev/projects/8e7714ef-c1d4-48f5-bf22-9246b840f65e) and click on Share -> Publish.
+**Developed by**: [Belednai Technology](https://www.belednai.com)
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+All rights reserved © 2024 Korenilo Ajang Duot
